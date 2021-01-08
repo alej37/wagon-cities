@@ -5,10 +5,10 @@ class City extends Component {
     return(
       <div className="list-group-item">
         <h3>{this.props.city.name}</h3>
-      </div>
+    </div>
     )
   }
 }
 
 
-export default City
+export default City;
