@@ -10,5 +10,12 @@ class City extends Component {
   }
 }
 
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators(
+    { setActiveCity(city) },
+    dispatch
+  );
+}
+
 
 export default City;
