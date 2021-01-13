@@ -30,6 +30,6 @@ export default function (state = null, action) {
         { name: 'Lille', address: '2 Avenue des Saules, 59000 Lille', slug: 'lille' },
         { name: 'Lyon', address: '23 Rue Paul Montrochet, 69002 Lyon', slug: 'lyon' },
       ];
-    }
+    };
   }
 }
